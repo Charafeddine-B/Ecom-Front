@@ -1,0 +1,172 @@
+{
+  "products": [
+    {
+      "id": 8,
+      "name": "Bluetooth Speaker",
+      "price": 39.99,
+      "category": "Audio",
+      "brand": "SonicBoom",
+      "stock": 60
+    },
+    {
+      "id": 9,
+      "name": "Digital Camera",
+      "price": 499.99,
+      "category": "Photography",
+      "brand": "PixelPerfect",
+      "stock": 15
+    },
+    {
+      "id": 10,
+      "name": "Home Security System",
+      "price": 299.99,
+      "category": "Smart Home",
+      "brand": "SafeGuard",
+      "stock": 20
+    },
+    {
+      "id": 11,
+      "name": "Portable External Hard Drive",
+      "price": 79.99,
+      "category": "Computers",
+      "brand": "DataVault",
+      "stock": 35
+    },
+    {
+      "id": 12,
+      "name": "Smart Thermostat",
+      "price": 129.99,
+      "category": "Smart Home",
+      "brand": "ClimateControl",
+      "stock": 45
+    },
+    {
+      "id": 13,
+      "name": "Wireless Mouse",
+      "price": 29.99,
+      "category": "Computers",
+      "brand": "TechGear",
+      "stock": 80
+    },
+    {
+      "id": 14,
+      "name": "Electric Toothbrush",
+      "price": 49.99,
+      "category": "Personal Care",
+      "brand": "DentalCare",
+      "stock": 55
+    },
+    {
+      "id": 15,
+      "name": "Smart Lighting Kit",
+      "price": 89.99,
+      "category": "Smart Home",
+      "brand": "Illuminate",
+      "stock": 50
+    },
+    {
+      "id": 16,
+      "name": "Graphic Design Software",
+      "price": 199.99,
+      "category": "Software",
+      "brand": "CreativeSuite",
+      "stock": 10
+    },
+    {
+      "id": 17,
+      "name": "Vegetable Spiralizer",
+      "price": 24.99,
+      "category": "Kitchen",
+      "brand": "CulinaryTools",
+      "stock": 65
+    },
+    {
+      "id": 18,
+      "name": "Smart Doorbell",
+      "price": 159.99,
+      "category": "Smart Home",
+      "brand": "RingMaster",
+      "stock": 30
+    },
+    {
+      "id": 19,
+      "name": "Foldable Bike",
+      "price": 349.99,
+      "category": "Sports & Outdoors",
+      "brand": "EcoRide",
+      "stock": 15
+    },
+    {
+      "id": 20,
+      "name": "Solar Power Bank",
+      "price": 49.99,
+      "category": "Electronics",
+      "brand": "SunCharge",
+      "stock": 40
+    },
+    {
+      "name": "aaa",
+      "price": 99,
+      "category": "TV",
+      "quantity": "",
+      "stock": "99",
+      "id": 21
+    },
+    {
+      "name": "aaa",
+      "price": 99,
+      "category": "TV",
+      "quantity": "",
+      "stock": "99",
+      "id": 22
+    },
+    {
+      "name": "mh",
+      "price": 99,
+      "category": "PH",
+      "quantity": "",
+      "stock": "78",
+      "id": 23
+    },
+    {
+      "name": "mh",
+      "price": 99,
+      "category": "PH",
+      "quantity": "",
+      "stock": "78",
+      "id": 24
+    },
+    {
+      "name": "hhh",
+      "price": 77,
+      "category": "PC",
+      "quantity": "",
+      "stock": "55",
+      "id": 25
+    },
+    {
+      "name": "hhh",
+      "price": 77,
+      "category": "PC",
+      "quantity": "",
+      "stock": "55",
+      "id": 26
+    },
+    {
+      "name": "",
+      "price": 99,
+      "category": "TV",
+      "quantity": "",
+      "stock": "99",
+      "id": 27
+    },
+    {
+      "name": "kook",
+      "price": 9,
+      "category": "TV",
+      "quantity": "",
+      "stock": "8",
+      "id": 28
+    }
+  ]
+}
