@@ -7,6 +7,8 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  islogedin : Boolean = true
+  islogedin : Boolean = true  ;
+  keyword: String = '';
+  constructor(){}
 
 }

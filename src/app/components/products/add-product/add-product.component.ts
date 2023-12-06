@@ -35,7 +35,7 @@ saveProduct() {
   ngOnInit(): void {
    this.productForm = this.fb.group({
       name:this.fb.control('',[Validators.required]),
-      price:this.fb.control('0'),
+      price:this.fb.control(0),
       category:this.fb.control(''),
       quantity:this.fb.control(''),
       stock:this.fb.control('')

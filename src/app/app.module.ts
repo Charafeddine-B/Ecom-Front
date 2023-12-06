@@ -18,7 +18,12 @@ import { ProductsComponent } from './components/products/products.component';
 import { HomeComponent } from './components/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductService } from './services/product.service';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+import { ClarityModule } from "@clr/angular";
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { AdminTemplateComponent } from './admin-template/admin-template.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +37,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     RegisterComponent,
     ProfileComponent,
     ProductsComponent,
-    HomeComponent
+    HomeComponent,
+    SidebarComponent,
+    AdminTemplateComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +48,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     HttpClientModule,
     IconsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ClarityModule,
+    FormsModule
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]

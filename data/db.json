@@ -1,78 +1,6 @@
 {
   "products": [
     {
-      "id": 8,
-      "name": "Bluetooth Speaker",
-      "price": 39.99,
-      "category": "Audio",
-      "brand": "SonicBoom",
-      "stock": 60
-    },
-    {
-      "id": 9,
-      "name": "Digital Camera",
-      "price": 499.99,
-      "category": "Photography",
-      "brand": "PixelPerfect",
-      "stock": 15
-    },
-    {
-      "id": 10,
-      "name": "Home Security System",
-      "price": 299.99,
-      "category": "Smart Home",
-      "brand": "SafeGuard",
-      "stock": 20
-    },
-    {
-      "id": 11,
-      "name": "Portable External Hard Drive",
-      "price": 79.99,
-      "category": "Computers",
-      "brand": "DataVault",
-      "stock": 35
-    },
-    {
-      "id": 12,
-      "name": "Smart Thermostat",
-      "price": 129.99,
-      "category": "Smart Home",
-      "brand": "ClimateControl",
-      "stock": 45
-    },
-    {
-      "id": 13,
-      "name": "Wireless Mouse",
-      "price": 29.99,
-      "category": "Computers",
-      "brand": "TechGear",
-      "stock": 80
-    },
-    {
-      "id": 14,
-      "name": "Electric Toothbrush",
-      "price": 49.99,
-      "category": "Personal Care",
-      "brand": "DentalCare",
-      "stock": 55
-    },
-    {
-      "id": 15,
-      "name": "Smart Lighting Kit",
-      "price": 89.99,
-      "category": "Smart Home",
-      "brand": "Illuminate",
-      "stock": 50
-    },
-    {
-      "id": 16,
-      "name": "Graphic Design Software",
-      "price": 199.99,
-      "category": "Software",
-      "brand": "CreativeSuite",
-      "stock": 10
-    },
-    {
       "id": 17,
       "name": "Vegetable Spiralizer",
       "price": 24.99,
@@ -105,68 +33,235 @@
       "stock": 40
     },
     {
-      "name": "aaa",
-      "price": 99,
-      "category": "TV",
-      "quantity": "",
-      "stock": "99",
-      "id": 21
+      "id": 21,
+      "name": "Wireless Keyboard",
+      "price": 39.99,
+      "category": "Computers",
+      "brand": "ConnectTech",
+      "stock": 70
     },
     {
-      "name": "aaa",
-      "price": 99,
-      "category": "TV",
-      "quantity": "",
-      "stock": "99",
-      "id": 22
+      "id": 22,
+      "name": "Rechargeable Hair Dryer",
+      "price": 69.99,
+      "category": "Personal Care",
+      "brand": "StyleMaster",
+      "stock": 45
     },
     {
-      "name": "mh",
-      "price": 99,
-      "category": "PH",
-      "quantity": "",
-      "stock": "78",
-      "id": 23
+      "id": 23,
+      "name": "Smart Thermostat",
+      "price": 99.99,
+      "category": "Smart Home",
+      "brand": "TempControl",
+      "stock": 55
     },
     {
-      "name": "mh",
-      "price": 99,
-      "category": "PH",
-      "quantity": "",
-      "stock": "78",
-      "id": 24
+      "id": 24,
+      "name": "Digital Drawing Tablet",
+      "price": 129.99,
+      "category": "Art & Design",
+      "brand": "ArtisticTools",
+      "stock": 25
     },
     {
-      "name": "hhh",
-      "price": 77,
-      "category": "PC",
-      "quantity": "",
-      "stock": "55",
-      "id": 25
+      "id": 25,
+      "name": "Stainless Steel Blender",
+      "price": 79.99,
+      "category": "Kitchen",
+      "brand": "BlendMaster",
+      "stock": 60
     },
     {
-      "name": "hhh",
-      "price": 77,
-      "category": "PC",
-      "quantity": "",
-      "stock": "55",
-      "id": 26
+      "id": 26,
+      "name": "Fitness Tracker",
+      "price": 49.99,
+      "category": "Health & Fitness",
+      "brand": "FitTech",
+      "stock": 80
     },
     {
-      "name": "",
-      "price": 99,
-      "category": "TV",
-      "quantity": "",
-      "stock": "99",
-      "id": 27
+      "id": 27,
+      "name": "Portable Photo Printer",
+      "price": 89.99,
+      "category": "Electronics",
+      "brand": "PrintPal",
+      "stock": 35
     },
     {
-      "name": "kook",
-      "price": 9,
-      "category": "TV",
-      "quantity": "",
-      "stock": "8",
-      "id": 28
+      "id": 28,
+      "name": "Gaming Mouse",
+      "price": 59.99,
+      "category": "Gaming",
+      "brand": "GameGuru",
+      "stock": 50
+    },
+    {
+      "id": 29,
+      "name": "Smart Water Bottle",
+      "price": 29.99,
+      "category": "Health & Fitness",
+      "brand": "HydraTech",
+      "stock": 75
+    },
+    {
+      "id": 30,
+      "name": "Noise-Canceling Headphones",
+      "price": 149.99,
+      "category": "Audio",
+      "brand": "SoundScape",
+      "stock": 20
+    },
+    {
+      "id": 31,
+      "name": "Camping Tent",
+      "price": 199.99,
+      "category": "Sports & Outdoors",
+      "brand": "AdventureGear",
+      "stock": 15
+    },
+    {
+      "id": 32,
+      "name": "Digital Alarm Clock",
+      "price": 19.99,
+      "category": "Home Essentials",
+      "brand": "TimeMaster",
+      "stock": 90
+    },
+    {
+      "id": 33,
+      "name": "Solar Garden Lights",
+      "price": 34.99,
+      "category": "Outdoor Decor",
+      "brand": "SunGlow",
+      "stock": 40
+    },
+    {
+      "id": 34,
+      "name": "Adjustable Laptop Stand",
+      "price": 49.99,
+      "category": "Computers",
+      "brand": "ErgoTech",
+      "stock": 65
+    },
+    {
+      "id": 35,
+      "name": "Smart Lock",
+      "price": 119.99,
+      "category": "Smart Home",
+      "brand": "SecureTech",
+      "stock": 30
+    },
+    {
+      "id": 36,
+      "name": "Cooking Utensil Set",
+      "price": 29.99,
+      "category": "Kitchen",
+      "brand": "ChefCraft",
+      "stock": 55
+    },
+    {
+      "id": 37,
+      "name": "E-book Reader",
+      "price": 79.99,
+      "category": "Electronics",
+      "brand": "ReadMate",
+      "stock": 50
+    },
+    {
+      "id": 38,
+      "name": "Yoga Mat",
+      "price": 24.99,
+      "category": "Health & Fitness",
+      "brand": "ZenFit",
+      "stock": 70
+    },
+    {
+      "id": 39,
+      "name": "Home Security Camera",
+      "price": 129.99,
+      "category": "Security",
+      "brand": "WatchGuard",
+      "stock": 25
+    },
+    {
+      "id": 40,
+      "name": "Gourmet Coffee Maker",
+      "price": 89.99,
+      "category": "Kitchen",
+      "brand": "BrewMasters",
+      "stock": 35
+    },
+    {
+      "id": 41,
+      "name": "Fitness Resistance Bands Set",
+      "price": 34.99,
+      "category": "Health & Fitness",
+      "brand": "FitFlex",
+      "stock": 60
+    },
+    {
+      "id": 42,
+      "name": "Smart Speaker",
+      "price": 79.99,
+      "category": "Audio",
+      "brand": "VoiceHub",
+      "stock": 40
+    },
+    {
+      "id": 43,
+      "name": "Foldable Camping Chair",
+      "price": 49.99,
+      "category": "Sports & Outdoors",
+      "brand": "CampComfort",
+      "stock": 50
+    },
+    {
+      "id": 44,
+      "name": "Wireless Charging Pad",
+      "price": 29.99,
+      "category": "Electronics",
+      "brand": "ChargeTech",
+      "stock": 75
+    },
+    {
+      "id": 45,
+      "name": "Memory Foam Pillow",
+      "price": 39.99,
+      "category": "Home Essentials",
+      "brand": "SleepWell",
+      "stock": 55
+    },
+    {
+      "id": 46,
+      "name": "Digital Meat Thermometer",
+      "price": 24.99,
+      "category": "Kitchen",
+      "brand": "GrillMaster",
+      "stock": 65
+    },
+    {
+      "id": 47,
+      "name": "Portable Projector",
+      "price": 149.99,
+      "category": "Electronics",
+      "brand": "CineTech",
+      "stock": 30
+    },
+    {
+      "id": 48,
+      "name": "Bluetooth Earbuds",
+      "price": 59.99,
+      "category": "Audio",
+      "brand": "SonicBuds",
+      "stock": 45
+    },
+    {
+      "id": 49,
+      "name": "Collapsible Water Bottle",
+      "price": 14.99,
+      "category": "Outdoor Gear",
+      "stock": 45
     }
   ]
 }
