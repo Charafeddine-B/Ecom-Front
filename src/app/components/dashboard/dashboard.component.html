@@ -1,46 +1,13 @@
-<div class="grid grid-cols-1 gap-5 mt-6 sm:grid-cols-2 lg:grid-cols-4 m-14">
+<span
+  class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300"
+  >Pages :{{ appState.productsState.totalPages }}</span
+>
+<span
+  class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300"
+  >Size :{{ appState.productsState.pageSize }}</span
+>
 
-  <div class="p-2 transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
-    <div class="flex items-start justify-between">
-      <div class="flex flex-col space-y-2">
-        <span class="text-gray-400">Page</span>
-        <span class="inline-block px-1 text-sm text-white bg-green-500 rounded">{{this.appState.productsState.totalPages}}</span>
-      </div>
-      <div class="p-5 rounded-md"></div>
-    </div>
-    <div>
-      <span class="inline-block px-1 text-sm text-white bg-green-500 rounded"></span>
-      <span></span>
-    </div>
-  </div>
-
-  <div class="p-2 transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
-    <div class="flex items-start justify-between">
-      <div class="flex flex-col space-y-2">
-        <span class="text-gray-400">Size</span>
-        <span class="inline-block px-1 text-sm text-white bg-red-500 rounded">{{this.appState.productsState.pageSize}}</span>
-      </div>
-      <div class="p-5 rounded-md"></div>
-      
-    </div>
-    <div>
-      <span class="inline-block px-1 text-sm text-white bg-green-500 rounded"></span>
-      <span></span>
-    </div>
-  </div>
-
-  <div class="p-2 transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
-    <div class="flex items-start justify-between">
-      <div class="flex flex-col space-y-2">
-        <span class="text-gray-400">Total</span>
-        <span class="inline-block px-1 text-sm text-white bg-blue-500 rounded">{{this.appState.productsState.currentPage}}</span>
-      </div>
-      <div class="p-5 rounded-md"></div>
-    </div>
-    <div>
-      <span class="inline-block px-1 text-sm text-white bg-red-500 rounded"></span>
-      <span></span>
-    </div>
-  </div>
-
-</div>
+<span
+  class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300"
+  >Total :{{ appState.productsState.totalProducts }}</span
+>

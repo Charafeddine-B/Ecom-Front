@@ -1,13 +1,24 @@
 {
-  "products": [
+  "users": [
     {
-      "id": 17,
-      "name": "Vegetable Spiralizer",
-      "price": 24.99,
-      "category": "Kitchen",
-      "brand": "CulinaryTools",
-      "stock": 65
+      "id": "admin",
+      "password": "YWRtaW4=",
+      "roles": [
+        "ADMIN",
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3RuYW1lIjoiQWhtZWQiLCJsYXN0bmFtZSI6IkJlbHlhemlkIiwiZW1haWwiOiJhaG1lZEBnbWFpbC5jb20iLCJyb2xlcyI6WyJBRE1JTiIsIlVTRVIiXX0.5E0pttohwP1-D0WpgSivlm6lusWqPNd_8dLJwEQqCYk"
     },
+    {
+      "id": "user",
+      "password": "YWRtaW4=",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNTE2MjM5MDIyLCJleHAiOjE1MTYyMzkwMjIsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODg4OC9hdXRoIiwibmJmIjoxNTE2MjM5MDIyLCJmaXJzdG5hbWUiOiJjaGFyYWZlZGRpbmUiLCJsYXN0bmFtZSI6IkJlbHlhemlkIiwiZW1haWwiOiJ4YXJAZ21haWwuY29tIiwicm9sZXMiOlsiVVNFUiJdfQ.5SUpBT-r-pUw12l7jgemBygQSjk1cDpG4LojskxTfRY"
+    }
+  ],
+  "products": [
     {
       "id": 18,
       "name": "Smart Doorbell",
@@ -262,6 +273,38 @@
       "price": 14.99,
       "category": "Outdoor Gear",
       "stock": 45
+    },
+    {
+      "name": "dssa",
+      "price": 0,
+      "category": "PC",
+      "quantity": "",
+      "stock": "33",
+      "id": 50
+    },
+    {
+      "name": "saa",
+      "price": 3,
+      "category": "PC",
+      "quantity": "",
+      "stock": "33",
+      "id": 51
+    },
+    {
+      "name": "saa",
+      "price": 3,
+      "category": "PC",
+      "quantity": "",
+      "stock": "33",
+      "id": 52
+    },
+    {
+      "name": "dsd",
+      "price": 33,
+      "category": "TV",
+      "quantity": "",
+      "stock": 33,
+      "id": 53
     }
   ]
 }

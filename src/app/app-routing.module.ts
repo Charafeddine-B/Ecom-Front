@@ -9,6 +9,8 @@ import { AddProductComponent } from './components/products/add-product/add-produ
 import { EditProductComponent } from './components/products/edit-product/edit-product.component';
 import { AdminTemplateComponent } from './admin-template/admin-template.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import {CustomersComponent} from "./components/customers/customers.component";
+import {OrdersComponent} from "./components/orders/orders.component";
 const routes: Routes = [
   { path: "", redirectTo: 'login', pathMatch: 'full' },
   // { path: "**", redirectTo: 'login', pathMatch: 'full' },
@@ -16,6 +18,8 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'home', component: HomeComponent },
   {path:"dashboard", component:DashboardComponent},
+    {path:"customers", component:CustomersComponent},
+  {path:"orders", component:OrdersComponent},
 
       { path: 'profile', component: ProfileComponent },
 

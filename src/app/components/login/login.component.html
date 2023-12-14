@@ -1,10 +1,14 @@
 <body class="max-h-screen">
  
+  <div class="card-body">
+    <div class="bg-red-400" *ngIf="errorMessage">{{ errorMessage }}</div>
+  </div>
+  
     <section class="border-red-500 bg-gray-200 min-h-screen flex items-center justify-center">
       <div class="bg-gray-100 p-5 flex rounded-2xl shadow-lg max-w-3xl">
         <div class="md:w-1/2 px-5">
           <h2 class="text-2xl font-bold text-[#002D74]">Login</h2>
-          <p class="text-sm mt-4 text-[#002D74]">If you have an account, please login</p>
+          <p class="text-sm mt-4 text-[#353638]">If you have an account, please login</p>
           <form class="mt-6" [formGroup]="formLogin" (ngSubmit)="handleLogin()">
             <div>
               <label class="block text-gray-700">Email Address</label>

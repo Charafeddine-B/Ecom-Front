@@ -13,7 +13,7 @@ import { AppStateService } from 'src/app/services/app-state.service';
   styleUrls: ['./products.component.css'],
 })
 export class ProductsComponent implements OnInit {
- 
+
 
   constructor(
     private http: HttpClient,
@@ -27,23 +27,39 @@ export class ProductsComponent implements OnInit {
   }
 
   searchProducts() {
+
     // this.products = this.productService.getProducts();
     this.productService.searchProducts(this.appState.productsState.keyword,this.appState.productsState.currentPage, this.appState.productsState.pageSize)
     .subscribe({
       next: (resp) => {
-        this.appState.productsState.products = resp.body as Product[];
-        let totalProducts: number = parseInt(
-          resp.headers.get('x-total-count')!
-        );
-        this.appState.productsState.totalPages = Math.floor(totalProducts / this.appState.productsState.pageSize);
+        let products = resp.body as Product[];
+        let totalProducts: number = parseInt(resp.headers.get('x-total-count')!);
+        // this.appState.productsState.totalProducts = totalProducts;
+
+        let totlalPages = Math.floor(totalProducts / this.appState.productsState.pageSize);
         if (totalProducts % this.appState.productsState.pageSize != 0) {
-          this.appState.productsState.totalPages = this.appState.productsState.totalPages + 1;
+          ++totlalPages;
         }
+        this.appState.setProductState({
+          products: products,
+          totalProducts: totalProducts,
+          totalPages: totlalPages,
+          status: 'LOADED'
+
+        })
+      },
+      error: (error) => {
+
+        this.appState.setProductState({
+          status: 'error',
+          errorMessage: error.message
+        })
       },
     });
   }
 
   handleDelete(product: Product) {
+    if(confirm("Are you sure you want to delete this product?") == true) {
     this.productService.deleteProduct(product).subscribe({
       next: (data) => {
         this.appState.productsState.products = this.appState.productsState.products.filter((p:any) => p.id != product.id);
@@ -53,19 +69,19 @@ export class ProductsComponent implements OnInit {
       },
     });
     // this.products$ = this.productService.getProducts();
-  }
+  }}
 
   handleEdit(product: any): void {
    this.router.navigateByUrl(`/admin/edit/${product.id}`)
   }
 
 
- 
+
 
   handleGoto(page:number) {
-    
+
     this.appState.productsState.currentPage = page;
     this.searchProducts();
-    
+
     }
 }
