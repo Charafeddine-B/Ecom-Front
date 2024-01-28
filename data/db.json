@@ -28,14 +28,6 @@
       "stock": 30
     },
     {
-      "id": 19,
-      "name": "Foldable Bike",
-      "price": 349.99,
-      "category": "Sports & Outdoors",
-      "brand": "EcoRide",
-      "stock": 15
-    },
-    {
       "id": 20,
       "name": "Solar Power Bank",
       "price": 49.99,
